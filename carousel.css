@@ -122,6 +122,6 @@ body {
 
 @media (min-width: 768px) {
   /* shrink Google search bar */
-.gSearch {width: 40%; float: right;}
+.gSearch {max-width: 40% !important; float: right !important;}
   }
 }
