@@ -119,3 +119,9 @@ body {
 
 /*  
 -------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* shrink Google search bar */
+.gSearch {width: 40%; float: right;}
+  }
+}
