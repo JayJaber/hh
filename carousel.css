@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
@@ -117,3 +116,6 @@ body {
   width: 100%;
   height: 100%;
 }
+
+/*  
+-------------------------------------------------- */
