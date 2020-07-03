@@ -125,6 +125,7 @@ body {
 .gSearch {max-width: 40% !important; float: right !important;}
   }
 }
+}
 
 /* Necessary for full page carousel*/
 
@@ -138,20 +139,25 @@ body {
       height: 100%;
     }
     .carousel-item:nth-child(1) {
-      background-image: url("pics/handyman-services.jpg");
+      background-image: url("pics/table.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
     }
     .carousel-item:nth-child(2) {
-      background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/30.jpg");
+      background-image: url("pics/table.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
     }
     .carousel-item:nth-child(3) {
-      background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg");
+      background-image: url("pics/handyman-services.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
     }
+
+    .view {
+      margin-left: 15%; margin-right: 15%;
+     text-shadow: 2px 2px 0px black; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  }
