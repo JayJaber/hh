@@ -145,19 +145,26 @@ body {
       background-position: center center;
     }
     .carousel-item:nth-child(2) {
-      background-image: url("pics/table.png");
+      background-image: url("pics/table2.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
     }
     .carousel-item:nth-child(3) {
-      background-image: url("pics/handyman-services.jpg");
+      background-image: url("pics/paintedwall.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
     }
 
-    .view {
-      margin-left: 15%; margin-right: 15%;
+  .view {
+    margin-left: 15%; margin-right: 15%;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+  }
+      .view h1{
      text-shadow: 2px 2px 0px black; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
   }
