@@ -129,13 +129,21 @@ body {
     }
 
   .view {
-    margin-left: 15%; margin-right: 15%;
+    margin-left: 10%; margin-right: 10%;
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
   }
-      .view h1{
+
+  .view a {
+    margin-left:5%;
+    margin-right:5%;
+  }
+
+  .view h1{
      text-shadow: 2px 2px 0px black; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
   }
+
+$('.collapse').collapse()
