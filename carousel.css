@@ -154,9 +154,8 @@ text-shadow:
     1px 1px 0 #000;
   }
 
-  .view2 a {
-    margin-left:5%;
-    margin-right:5%;
+  .view2 h1 {
+    text-shadow: 2px 2px 0px black; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
   }
 
 .view2 .jumbotron {
