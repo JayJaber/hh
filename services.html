@@ -31,6 +31,8 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
     <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </head>
   <body>
     <header>
@@ -41,21 +43,24 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="services.html">Services <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="review.html">Reviews</a>
+        </li>
       </ul>
      
-<script async src="https://cse.google.com/cse.js?cx=009009733495483171328:yqtvv2a9eua"></script>
+<script async src="https://cse.google.com/cse.js?cx=009009733495483171328:37ci1nzxxdw"></script>
 <div id="cse" class="gSearch">
 <div class="gcse-search"></div>
     </div>
@@ -69,7 +74,7 @@
   <div class="jumbotron" style="background: url(pics/table3.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
     <div class="container">
       <h1 class="display-3 text-warning">Handyman Herrera · Services</h1>
-      <p class="text-white" >Thanks to all of you for giving us the opportunity to remodel your home. Our professionalism speaks for itself</p>
+      <p class="text-white" >This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
       <p><a class="btn btn-danger btn-lg" href="#" role="button">Book Now &raquo;</a></p>
       <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact &raquo;</a></p>
 
@@ -191,6 +196,23 @@
 </div>
 <!--Accordion wrapper--><br>
 
+<script type="text/javascript">
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+$(document).ready(function(){
+if (urlParams.has('1')){
+  $("#collapse96").collapse('show');
+}
+if (urlParams.has('2')){
+  $("#collapse97").collapse('show');
+}
+if (urlParams.has('3')){
+  $("#collapse98").collapse('show');
+}
+});
+</script>
+
 <!--
 <div class="container">
   <div class="btn-group btn-group-lg col-md-12" role="group" aria-label="Basic example">
@@ -205,21 +227,12 @@
     <div class="row">
       <div class="col-md-4">
         <h2>Heading</h2>
-
-<table><div>
-
-<tr><td><span>&#x2713;Cleaning bucket (with 2 dividers to keep supplies in)</span></td></tr>
-   
-</div></table>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
         <h2>Heading</h2>
-         <table><div>
-
-  <tr><td><span>&#x2713; Disposable nitrile cleaning gloves</span></td></tr>
- 
-</div></table>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
@@ -235,9 +248,10 @@
 
 </main>
 
-<footer class="container">
-  <p>&copy; Company 2017-2020</p>
-</footer>
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2020 Handyman Herrera &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
