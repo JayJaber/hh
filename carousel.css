@@ -122,7 +122,7 @@ body {
       background-position: center center;
     }
     .carousel-item:nth-child(3) {
-      background-image: url("pics/paintedwall.png");
+      background-image: url("pics/tabletool.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center center;
@@ -160,4 +160,22 @@ text-shadow:
 
 .view2 .jumbotron {
     border-radius: 0 !important;
+}
+
+#hide {
+display:none;
+}
+
+#form {
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+  background-color: Beige;
+  border-radius: 0.5em;
+  border: 1px solid black;
+}
+
+#form input, #form textarea {
+    background-color: whitesmoke;
+    color: #292b2c;
 }
