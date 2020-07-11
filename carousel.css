@@ -5,6 +5,14 @@
 body {
   padding-bottom: 3rem;
   color: #5a5a5a;
+  background-color: rgba(250,250,210,1); /* Light Golden Rod Yellow with opacity */
+background-image: linear-gradient(white 2px, transparent 2px),
+linear-gradient(90deg, white 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,0.75) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,0.75) 1px, transparent 1px);
+background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+      background-attachment: fixed;
 }
 
 
@@ -160,6 +168,7 @@ text-shadow:
 
 .view2 .jumbotron {
     border-radius: 0 !important;
+    margin: none;
 }
 
 #hide {
@@ -170,7 +179,7 @@ display:none;
   width: 85%;
   margin: auto;
   padding: 20px;
-  background-color: Beige;
+  background-color: white;
   border-radius: 0.5em;
   border: 1px solid black;
 }
@@ -178,4 +187,16 @@ display:none;
 #form input, #form textarea {
     background-color: whitesmoke;
     color: #292b2c;
+}
+
+#form label {color: #2f3f4f;}
+
+.accordion .card {
+  background: whitesmoke;
+}
+
+#form #formLabel {
+  color: #2f3f4f;
+  margin:none;
+  border: none;
 }
