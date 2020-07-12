@@ -176,7 +176,7 @@ display:none;
 }
 
 #form {
-  width: 85%;
+  width: 90%;
   margin: auto;
   padding: 20px;
   background-color: white;
@@ -195,6 +195,9 @@ display:none;
   background: whitesmoke;
 }
 
+.accordion .card .card-header {
+}
+
 #form #formLabel {
   color: #2f3f4f;
   margin:none;
@@ -204,4 +207,17 @@ display:none;
 .form-control:focus {
         border-color: indianred;
         box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+
+iframe {
+      background-color: #eceaf0;
+      width: 90%;
+      height: 400px;
+      margin-left: 5%;
+      margin-right: 5%;
+}
+
+.reviewPic {
+  height: 5em;
+  width:auto;
 }
