@@ -16,12 +16,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 
     <style>
+       #gallery a:hover {
+text-decoration-color:indianred !important;
+      }
       .row {
-  margin: 10px;
+  margin: 0;
 }
 
       .row img{
-  margin-bottom: 15px;
+  margin: 0;
 }
 
 /* Landscape phone to portrait tablet */
@@ -29,7 +32,7 @@
   margin: 0;
 } 
       .row img{
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 }
 
@@ -109,21 +112,36 @@
 <h3 class="text-body text-center">Real pictures from some of our past jobs</h3>
 <h4 class="text-center">Click on any image for a larger view</h4>
 
-<div class="container">
+<div class="container" id="gallery">
   <div class="row">
     <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <figure class="text-dark">
       <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+        <figcaption>Before - Landscaping and Gardening - Trulli, Puglia, Italy.</figcaption>
+      </figure>
     </a>
+
     <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <figure class="text-dark">
       <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+        <figcaption>After - Handyman - San Francisco</figcaption>
+      </figure>
     </a>
+
     <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <figure class="text-dark">
       <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+        <figcaption>After - Handyman - San Francisco</figcaption>
+      </figure>          
     </a>
   </div>
+
   <div class="row">
     <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <figure class="text-dark">
       <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid rounded">
+        <figcaption>After - Handyman - San Francisco</figcaption>
+      </figure>      
     </a>
     <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
       <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid rounded">
@@ -132,6 +150,7 @@
       <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid rounded">
     </a>
   </div>
+
 </div>
 
     <!-- 
